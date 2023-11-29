@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    font-family: "Gabarito", sans-serif;
+}
+
+
+
+.container
+{
+    display:flex;
+
+}
+
+.item
+{
+    color:black;
+    background-color: #fff;
+    border-radius:20px;
+    padding:1rem;
+    margin:20px;
+    box-shadow: -19px -20px 17px 9px rgba(42,155,89,0.76);
+-webkit-box-shadow: -19px -20px 17px 9px rgba(42,155,89,0.76);
+-moz-box-shadow: -19px -20px 17px 9px rgba(42,155,89,0.76);
+}
+table{
+    background:white;
+    color:black;
+    padding:1rem;
+    width: 50%;
+    border-radius: 30px;
+}
+th,td {
+    background-color:#fff;
+    border-collapse: collapse;  
+    padding:1rem;
+}
+
+caption{
+    text-align:left;
+    color:#fff;
+    padding:1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+th
+{
+    background-color: black;
+    color:#fff;
+}
+
+td{
+    text-align: center;
+    vertical-align:middle;
+    font-weight: 700;
+}
+
+td img{
+    width: 100px;
+    vertical-align:middle;
+}
+
+.banner {
+   background: url(/assets/Ligi-logo/SUPERLIGA-logo_jpg.jpg);
+   background-size:cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+
+}
+
+
+
+
+
